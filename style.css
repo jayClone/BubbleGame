@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body {
+height: 100%;
+width: 100%;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 98, 161);
+}
+#plate{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#strip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(183, 124, 238);
+}
+.point{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkolivegreen;
+    display: flex;
+    gap: 8px;
+}
+.scoreBox{
+    text-align: center;
+    margin: 9px 0 0 0;
+    padding: 0 0 0 0;
+    height: 37px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#plateBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    height:90%;
+    background-color: rgb(255, 161, 249);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: bisque;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(122, 17, 17);
+}
