@@ -17,7 +17,7 @@ var timer = setInterval(function(){
     }
     else{
         clearInterval(time);
-        document.querySelector("#plateBottom").innerHTML=`<h1>GAME  KHATAM  LODU</h1>`
+        document.querySelector("#plateBottom").innerHTML=`<h1>GAME KHATAM LODU</h1>`
     }
 },1000)
 }
