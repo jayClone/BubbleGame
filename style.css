@@ -79,13 +79,13 @@ width: 100%;
 }
 
 /* Media Query for Mobile Phones */
-@media(min-width: 600px) {
+@media(max-width: 600px) {
     #strip {
       padding: 0 5%;
     }
   
     .point {
-      font-size: 10px;
+      font-size: 15px;
       font-weight: 400;
     }
   
